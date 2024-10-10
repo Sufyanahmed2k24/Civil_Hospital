@@ -1,0 +1,1489 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* header */
+.header{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 190px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(135, 33%, 36%) ;
+}
+.fa-phone{
+    padding-right: 10px;
+}
+/* navbar start */
+nav{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.ancors{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-ancor{
+    text-decoration: none;
+    color: #626262; 
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 1s;   
+    position: relative;
+}
+
+.nav-ancor::after{
+    content: ''; /* Necessary for the underline effect */
+    display: block;
+    width: 0; /* Start with no width */
+    height: 2px; /* Height of the underline */
+    background: hsl(135, 33%, 36%); /* Color of the underline */
+    transition: width 0.3s ease-out; /* Smooth width transition */
+    position: absolute;
+    left: 50%; /* Start underline from the center */
+    bottom: -5px; /* Position below the text */
+    transform: translateX(-50%); /* Center the underline */
+        }
+.nav-ancor:hover::after{
+    text-decoration: none;
+    width: 100%; /* Expand the underline fully */
+    left: 0; /* Extend the underline to the full width */
+    transform: translateX(0);
+    color: hsl(135, 33%, 36%); 
+
+}
+
+#hamburger{
+    display: none;
+}
+
+.offcanvas-body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+}
+/* NAVBAR END */
+
+
+/* SERVICE SECTION START */
+.services-section{
+    background-color: #f7fcfc;
+    border-top: 3px solid hsl(135, 33%, 36%);
+    width: 100%;
+}
+.services-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    text-align: justify;
+    padding-left: 10%;
+}
+.services-title{
+    font-weight: bold;
+    position: relative;
+/* text-decoration: underline; */
+}
+.services-title::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 50%;
+    height: 4px;
+    background-color: hsl(135, 33%, 36%);    
+    left: 27%;
+}
+
+.services-text{
+    padding-top: 60px;
+    font-size: 18px;
+}
+/* SERVICES SECTION END */
+
+/* FIRST SECTION CARD */
+.cards-first-section{
+    padding-top: 60px;
+    background-color: #f7fcfc;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.cards-first-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.card{
+    background-color: #f7fcfc;
+    width: 50%;
+    height: 470px;
+    text-align: justify;
+    align-items: center;
+    letter-spacing: 0%;
+    padding: 10px;
+}
+.fa-heartbeat{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-pills{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-hospital-user{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.card-title{
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+/* FIRST SECTION CARD END */
+
+/* SECOND SECTION CARD */
+
+.cards-sec-section{
+    padding-top: 60px;
+    background-color: #f7fcfc;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.cards-sec-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.card{
+    background-color: #f7fcfc;
+    width: 50%;
+    height: 470px;
+    text-align: justify;
+    align-items: center;
+    letter-spacing: 0%;
+    padding: 10px;
+}
+.fa-dna{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-wheelchair{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-notes-medical{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+
+/* SECOND SECTION CARD END */
+
+/* FOOTER SECTION START */
+footer{
+    background-color: #f6f6f6;
+    color: gray;
+    width: 100%;
+    height: 507px;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+.left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-left-span{
+    padding-left: 20px;
+}
+.fa-brands{
+    color: hsl(135, 33%, 36%);
+    border: 1px solid hsl(135, 33%, 36%);
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+.fa-brands:hover{
+    background-color: hsl(135, 33%, 36%);
+    color: white;
+    cursor: pointer;
+}
+.center{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-center-title{
+    color: black;
+    font-weight: 610;
+}
+.footer-ancors{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-ancor{
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+    transition: 1s;
+}
+.footer-ancor:hover{
+    color: hsl(135, 33%, 36%);
+}
+.right{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+.footer-right-title{
+    color: black;
+    font-weight: 610;
+   
+}
+/* FOOTER SECTION END */
+
+/* MEDIA QUERY START */
+/* Small mobile (portrait, less than 360px) */
+@media only screen and (max-width: 359px) {
+    .header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+        color: white;
+        /* font-weight: bold; */
+        font-size: 10px;
+        background-color: hsl(135, 33%, 36%);
+    }
+
+    .fa-phone {
+        padding-right: 10px;
+    }
+
+    /* Ensure phone number stays on one line */
+    .phone-number {
+        display: inline-flex; /* Keeps the icon and number on one line */
+        /* align-items: center; Vertically center the content */
+        white-space: nowrap; /* Prevents the text from wrapping */
+        padding-left: 10px;
+    }
+    nav{
+        height: 100px;
+    }
+    .logo-div{
+        width: 80px;
+
+    }
+    .ancors{
+        display: none;
+    }
+    .nav-sec-logo{
+        display: none;
+    }
+    #hamburger{
+        display: inline-block;
+    }
+
+    .services-text{
+        padding-top: 60px;
+        font-size: 15px;
+    }
+
+    .cards-first-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .card{
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 500px;
+        text-align: justify;
+        align-items: center;
+        letter-spacing: 0%;
+        padding: 10px;
+    }
+    .fa-heartbeat{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-pills{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-hospital-user{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .card-title{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+
+    .cards-sec-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-sec-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .fa-dna{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-wheelchair{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-notes-medical{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    
+
+    footer{
+        padding-top: 10%;
+        flex-direction: column;
+        width: 100%;
+        height: 957px;
+    }
+    .left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .fa-brands{
+        color: hsl(135, 33%, 36%);
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+        /* padding-top: 5px; */
+        
+        align-items: center;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .center{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;   
+    }
+}
+
+/* Mobile (portrait, 360px to 480px) */
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+    .header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
+        color: white;
+        font-weight: bold;
+        background-color: hsl(135, 33%, 36%);
+    }
+
+    .fa-phone {
+        padding-right: 10px;
+    }
+
+    /* Ensure phone number stays on one line */
+    .phone-number {
+        display: inline-flex; /* Keeps the icon and number on one line */
+        align-items: center; /* Vertically center the content */
+        white-space: nowrap; /* Prevents the text from wrapping */
+        padding-left: 10px;
+    }
+    nav{
+        height: 100px;
+    }
+    .logo-div{
+        width: 80px;
+
+    }
+    .ancors{
+        display: none;
+    }
+    .nav-sec-logo{
+        display: none;
+    }
+    #hamburger{
+        display: inline-block;
+    }
+
+    .services-text{
+        padding-top: 60px;
+        font-size: 15px;
+    }
+
+    .cards-first-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .card{
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 500px;
+        text-align: justify;
+        align-items: center;
+        letter-spacing: 0%;
+        padding: 10px;
+    }
+    .fa-heartbeat{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-pills{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-hospital-user{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .card-title{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+
+    .cards-sec-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-sec-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .fa-dna{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-wheelchair{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-notes-medical{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+
+
+    footer{
+        padding-top: 10%;
+        flex-direction: column;
+        width: 100%;
+        height: 957px;
+    }
+    .left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .fa-brands{
+        color: hsl(135, 33%, 36%);
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+        /* padding-top: 5px; */
+        
+        align-items: center;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .center{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;   
+    }
+    }
+
+/* Mobile (landscape, 481px to 767px) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
+        color: white;
+        font-weight: bold;
+        background-color: hsl(135, 33%, 36%);
+    }
+
+    .fa-phone {
+        padding-right: 10px;
+    }
+
+    /* Ensure phone number stays on one line */
+    .phone-number {
+        display: inline-flex; /* Keeps the icon and number on one line */
+        align-items: center; /* Vertically center the content */
+        white-space: nowrap; /* Prevents the text from wrapping */
+        padding-left: 10px;
+    }
+    nav{
+        height: 100px;
+    }
+    .logo-div{
+        width: 80px;
+
+    }
+    .ancors{
+        display: none;
+    }
+    .nav-sec-logo{
+        display: none;
+    }
+    #hamburger{
+        display: inline-block;
+    }
+
+    .services-text{
+        padding-top: 60px;
+        font-size: 15px;
+    }
+
+    .cards-first-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .card{
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 500px;
+        text-align: justify;
+        align-items: center;
+        letter-spacing: 0%;
+        padding: 10px;
+    }
+    .fa-heartbeat{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-pills{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-hospital-user{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .card-title{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+
+    .cards-sec-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-sec-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .fa-dna{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-wheelchair{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+    .fa-notes-medical{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 25px;
+    }
+
+
+    footer{
+        padding-top: 10%;
+        flex-direction: column;
+        width: 100%;
+        height: 957px;
+    }
+    .left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .fa-brands{
+        color: hsl(135, 33%, 36%);
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+        /* padding-top: 5px; */
+        
+        align-items: center;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .center{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;   
+    }
+    }
+
+/* Tablet (portrait, 768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-left: 250px;
+        color: white;
+        font-weight: bold;
+        background-color: hsl(135, 33%, 36%);
+    }
+
+    .fa-phone {
+        padding-right: 10px;
+    }
+
+    /* Ensure phone number stays on one line */
+    .phone-number {
+        display: inline-flex; /* Keeps the icon and number on one line */
+        align-items: center; /* Vertically center the content */
+        white-space: nowrap; /* Prevents the text from wrapping */
+        padding-left: 10px;
+    }
+    nav{
+        height: 100px;
+    }
+    .logo-div{
+        width: 80px;
+
+    }
+    .ancors{
+        display: none;
+    }
+    .nav-sec-logo{
+        display: none;
+    }
+    #hamburger{
+        display: inline-block;
+    }
+    .services-title{
+        font-size: 40px;
+    }
+    .services-text{
+        padding-top: 60px;
+        font-size: 20px;
+    }
+
+    .cards-first-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .card{
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 450px;
+        text-align: justify;
+        align-items: center;
+        letter-spacing: 0%;
+        padding: 10px;
+    }
+    .fa-heartbeat{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        padding-top: 17px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 40px;
+    }
+    .fa-pills{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        padding-top: 17px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 40px;
+        }
+    .fa-hospital-user{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        padding-top: 17px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 40px;
+    }
+    .card-title{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    .card-text{
+        font-size: 20px;
+    }
+
+    .cards-sec-section{
+        padding-top: 60px;
+        background-color: #f7fcfc;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .cards-sec-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    .fa-dna{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        padding-top: 17px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 40px;
+    }
+    .fa-wheelchair{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        padding-top: 17px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 40px;
+    }
+    .fa-notes-medical{
+        color: hsl(135, 33%, 36%);
+        border-radius: 100px;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        padding-top: 17px;
+        box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+        font-size: 40px;
+    }
+
+    footer{
+        padding-top: 10%;
+        flex-direction: column;
+        width: 100%;
+        height: 957px;
+        font-size: larger   ;
+    }
+    .left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-ancor{
+        font-size: large;
+    
+    }
+    
+    .fa-brands{
+        color: hsl(135, 33%, 36%);
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+        /* padding-top: 5px; */
+        align-items: center;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .center{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;   
+        font-size: large;
+    }
+    }
+        /* Media Query for Laptops (1024px to 1440px) */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    /* header */
+   .header{
+       width: 100%;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-right: 190px;
+       text-align: right;
+       color: white;
+       font-weight: bold;
+       background-color: hsl(135, 33%, 36%) ;
+   }
+   .fa-phone{
+       padding-right: 10px;
+   }
+   /* navbar start */
+   nav{
+       width: 100%;
+       height: 160px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       text-align: center;
+   
+   }
+   .ancors{
+       width: 70%;
+       display: flex;
+       justify-content: space-around;
+   }
+   .nav-ancor{
+       text-decoration: none;
+       color: #626262; 
+       font-size: 15px;
+       font-weight: 500;
+       text-decoration: none;
+       transition: 1s;   
+       position: relative;
+   }
+   
+   .nav-ancor::after{
+       content: ''; /* Necessary for the underline effect */
+       display: block;
+       width: 0; /* Start with no width */
+       height: 2px; /* Height of the underline */
+       background: hsl(135, 33%, 36%); /* Color of the underline */
+       transition: width 0.3s ease-out; /* Smooth width transition */
+       position: absolute;
+       left: 50%; /* Start underline from the center */
+       bottom: -5px; /* Position below the text */
+       transform: translateX(-50%); /* Center the underline */
+           }
+   .nav-ancor:hover::after{
+       text-decoration: none;
+       width: 100%; /* Expand the underline fully */
+       left: 0; /* Extend the underline to the full width */
+       transform: translateX(0);
+       color: hsl(135, 33%, 36%); 
+   
+   }
+   
+   #hamburger{
+       display: none;
+   }
+   
+   .offcanvas-body{
+       display: flex;
+       justify-content: space-around;
+       flex-direction: column;
+       text-align: left;
+   }
+   .services-section{
+    background-color: #f7fcfc;
+    border-top: 3px solid hsl(135, 33%, 36%);
+    width: 100%;
+}
+.services-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    text-align: justify;
+    padding-left: 10%;
+}
+.services-title{
+    font-weight: bold;
+    position: relative;
+/* text-decoration: underline; */
+}
+.services-title::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 50%;
+    height: 4px;
+    background-color: hsl(135, 33%, 36%);    
+    left: 27%;
+}
+
+.services-text{
+    padding-top: 60px;
+    font-size: 18px;
+}
+/* SERVICES SECTION END */
+
+/* FIRST SECTION CARD */
+.cards-first-section{
+    padding-top: 60px;
+    background-color: #f7fcfc;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.cards-first-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.card{
+    background-color: #f7fcfc;
+    width: 50%;
+    height: 470px;
+    text-align: justify;
+    align-items: center;
+    letter-spacing: 0%;
+    padding: 10px;
+}
+.fa-heartbeat{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-pills{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-hospital-user{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.card-title{
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+/* FIRST SECTION CARD END */
+
+/* SECOND SECTION CARD */
+
+.cards-sec-section{
+    padding-top: 60px;
+    background-color: #f7fcfc;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.cards-sec-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.card{
+    background-color: #f7fcfc;
+    width: 50%;
+    height: 550px;
+    text-align: justify;
+    align-items: center;
+    letter-spacing: 0%;
+    padding: 10px;
+}
+.fa-dna{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-wheelchair{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+.fa-notes-medical{
+    color: hsl(135, 33%, 36%);
+    border-radius: 100px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: 36px;
+}
+
+/* SECOND SECTION CARD END */
+
+/* FOOTER SECTION START */
+footer{
+    background-color: #f6f6f6;
+    color: gray;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+.left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-logo{
+    padding-top: 30px;
+}
+.footer-left-span{
+    padding-left: 20px;
+}
+.fa-brands{
+    color: hsl(135, 33%, 36%);
+    border: 1px solid hsl(135, 33%, 36%);
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+.fa-brands:hover{
+    background-color: hsl(135, 33%, 36%);
+    color: white;
+    cursor: pointer;
+}
+.center{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-center-title{
+    color: black;
+    font-weight: 610;
+}
+.footer-ancors{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-ancor{
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+    transition: 1s;
+}
+.footer-ancor:hover{
+    color: hsl(135, 33%, 36%);
+}
+.right{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+.footer-right-title{
+    color: black;
+    font-weight: 610;
+   
+}
+}
+
