@@ -1228,7 +1228,7 @@ nav{
     padding-top: 15%;
 }
 .vertical-line{
-    display: none;
+    display: block;
 }
 .filter-button{
     background-color: #f7fcfc;

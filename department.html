@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Hospital Karachi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="department.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <section class="header">
+        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+        <span class=".phone-number">Call us now (021) 99215740</span>
+    </section>
+    <!-- navbar start -->
+    <nav>
+        <div class="logo-div"><img src="/assets/logo.png" class="logo-div"></div>
+        <div class="ancors">
+            <a class="nav-ancor" style="color:hsl(135, 33%, 36%);" href="index.html">HOME</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="department.html">DEPARTMENTS</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="doctors.html">DOCTORS</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="house-job.html">HOUSE JOB</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="services.html">OUR SERVICES</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="about.html">ABOUT</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="contact.html">CONTACT</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="tender.html">TENDER</a>
+        </div>
+        <div class="sindh-logo-div"><img src="/assets/sindh-logo.png" class="nav-sec-logo" height="100px" width="90px"><i
+                 data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class=" fa-solid fa-bars" id="hamburger"></i></div>
+
+        <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel"></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a class="nav-ancor" style="color:hsl(135, 33%, 36%);" href="index.html">HOME</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="department.html">DEPARTMENTS</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="doctors.html">DOCTORS</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="house-job.html">HOUSE JOB</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="services.html">OUR SERVICES</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="about.html">ABOUT</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="contact.html">CONTACT</a>
+            <a class="nav-ancor" style="color: hsl(135, 33%, 36%);" href="tender.html">TENDER</a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+ <!-- DEPARTMENT SECTION -->
+<section class="depertment-section">
+    <div class="department-container">
+        <h1 class="department-title">DEPARTMENTS</h1>
+        <span class="department-text">Our packages are designed to give you the hospital experience. These are health and wellness tests and offerings to alert you to possible areas you’re struggling with and help you navigate suitable care for a sound body and mind.
+        </span>
+    </div>
+</section>
+
+<!-- DEPARTMENT FILTERS SECTION -->
+ <section class="department-filters-section">
+    <div class="department-filters-container">
+        <div class="vertical-line" id="verticalline" ></div>
+            <button class="filter-button active" id="administrationButton" onclick="moveline('administration')">Administration</button>
+            <button class="filter-button active" id="ClinicalButton" onclick="moveline('Clinical_Support_Services')">Clinical Support Services
+            </button>
+            <button class="filter-button active" id="EmergencyButton" onclick="moveline('Emergency_Services')">Emergency Services
+            </button>
+            <button class="filter-button active" id="ClinicsButton" onclick="moveline('OutPatient_Clinics')">OutPatient Clinics
+            </button>
+    </div>
+    <div class="Administration-department" id="administration_department">
+        <h1 class="administration-title">Administration</h1>
+        <p class="administration-text">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+        <img src="assets/Administration-department img.jpg" class="administration-img">
+        <p class="administration-img-text">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero.</p>
+    </div>
+
+
+
+    <div class="Clinical-Support-Services" id="Clinical_Support_Services">
+        <h1 class="administration-title">Clinical Support Services</h1>
+        <div class="clinical-cards">
+<div class="clinical-card">
+    <img src="/assets/Anesthesia card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Anesthesia
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Coronary Care Unit card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Coronary Care Unit
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Clinical Laboratory card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Clinical Laboratory
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Diagnostic Radiology card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Diagnostic Radiology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Intensive Care Unit card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Intensive Care Unit
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Physiotherapy card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Physiotherapy
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Rehabilitation Center card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Rehabilitation Center
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Thalassemia Center card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Thalassemia Center
+    </p></a>
+</div>
+</div>
+    </div>
+
+    <div class="Emergency-Services" id="Emergency_Services">
+        <h1 class="administration-title">Emergency Services</h1>
+        <div class="emergency-cards">
+<div class="clinical-card">
+    <img src="/assets/Accident & Emergency.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Accident & Emergency
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Burn Emergency.png"class="card-img">
+    <p class="card-text">
+        Burn Emergency
+    </p>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Gynae & Obstetrics.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Gynae & Obstetrics
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Pediatric Emergency.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Pediatric Emergency
+    </p></a>
+</div>
+        </div>
+    </div>
+    <div class="OutPatient-Clinics" id="OutPatient_Clinics">
+        <h1 class="administration-title">OutPatient Clinics</h1>
+<div class="OutPatient-cards">
+<div class="clinical-card">
+    <img src="/assets/Burn Emergency.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        AIDS Clinic
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Burn Emergency.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Burns
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Cardiology card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Cardiology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Cardiac Surgery.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Cardiac Surgery
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Critical Care.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Critical Care
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Dermatology.jpg"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Dermatology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Dentistry.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Dentistry
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Dentistry.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Diabetes
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Dentistry.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Drug & Poison Information Center
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Ear, Nose & Throat.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Ear, Nose & Throat (ENT)
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Gastroenterology.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Gastroenterology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/General Surgery.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        General Surgery
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Hepatitis.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Hepatitis
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Hepatitis.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Medicine
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Neuro Surgery.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Neuro Surgery
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Neurology.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Neurology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Orthopedic.jpg"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Orthopedic
+</p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Opthalmology.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Opthalmology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Oncology.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Oncology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Gynae & Obstetrics.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Gynae & Obstetrics
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Anesthesia card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Oxygen
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Psychiatry.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Psychiatry
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Pediatric Emergency.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Pediatrics
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Pediatrics.jpg"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Pediatrics Surgery
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Physiotherapy card.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Physio
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Plastic Surgery.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Plastic Surgery
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Pain.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Pain
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Pain.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Patient
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/patient_logo.png"class="card-img">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Patient logo
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/radiology.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Radiology
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Rabies Prevention Management.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Rabies Prevention Management Centre
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Rabies Prevention Management.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Surgery
+    </p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Thoracic Surgery.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Thoracic Surgery
+</p></a>
+</div>
+<div class="clinical-card">
+    <img src="/assets/Rabies Prevention Management.png"class="card-imgs">
+    <a class="card-ancor" href="#"> <p class="card-text">
+        Vascular Surgery
+    </p></a>
+</div>
+</div>
+</div>
+ </section>
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="left">
+            <div class="footer-logo"><img src="/assets/logo.png" class="footer-logo"></div>
+            <div class="footer-left-para">Dr. Ruth K. M. Pfau, Civil Hospital Karachi
+                is an extensive multidisciplinary facility of
+                executive health care services in the heart of Karachi</div>
+            <div class="footer-left-location"><i class="fa-solid fa-location-dot"></i><span
+                    class="footer-left-span">Civil Hospital Karachi, Rafiqui H.J. Shaheed Road, Nanakwara, Saddar,
+                    Karachi, Sindh, Pakistan.</span>
+            </div>
+            <div class="footer-phone"><i class="fa-solid fa-phone"></i> <span class="footer-left-span"> (021)
+                    99521740</span></div>
+            <div class="footer-inbox"><i class="fa-solid fa-envelope"></i> <span class="footer-left-span">
+                    info@chk.gov.pk</span></div>
+            <a href="https://www.facebook.com/chkarachi?_rdr"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+
+        <div class="center">
+            <div class="footer-center-title">
+                <h3 class="footer-center-title">Department</h3>
+            </div>
+            <div class="footer-ancors">
+                <a href="dental-care.html" class="footer-ancor">> Dental Care</a>
+                <a href="medicine.html" class="footer-ancor">> Medicine</a>
+                <a href="othopedic.html" class="footer-ancor">> Orthopedic</a>
+                <a href="emergency.html" class="footer-ancor">> Emergency</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="footer-right-title">
+                <h3 class="footer-right-title">Working Hours</h3>
+            </div>
+            <p class="working-days">Out-patient Department</p>
+            <p class="working-days">Out-Monday to Saturday | 8 AM to 2 PM
+                Sunday | OPD Closed</p>
+            <div class="right-footer-span">
+                Emergency Department & Pharmacy | 24x7
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="https://kit.fontawesome.com/0a02fbb60a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="department.js"></script>
+</body>
+
+</html>
