@@ -111,10 +111,10 @@ nav{
 }
 .map-container{
     width: 80%;
-    margin-left: 10%;
+    margin-left: 3%;
 }
 .map{
-    width: 100%;
+    width: 118%;
     height: 300px;
 }
 .contact-form-section{
@@ -127,13 +127,14 @@ nav{
 }
 .contact-form-container-1{
     width: 44.5%;
+    height: 400px;
     /* background-color: aqua; */
 }
 .address{
     font-size: 18px;
     color: gray;
     width: 600px;
-    height: 200px;
+    height: 225px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     align-items: center;
     text-align: center;
@@ -151,7 +152,7 @@ nav{
     flex-direction: column;
     color: gray;
     width: 48%;
-    height: 125px;
+    height: 150px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     align-items: center;
     text-align: center;
@@ -163,7 +164,7 @@ nav{
     flex-direction: column;
     color: gray;
     width: 48%;
-    height: 125px;
+    height: 150px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     align-items: center;
     text-align: center;
@@ -192,33 +193,79 @@ nav{
 }
 .contact-form-container-2{
     width: 44.5%;
-    height: 350px;
-    background-color: aqua;
+    height: 400px;
+    /* background-color: aqua; */
     align-items: center;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     padding: 15px;
 }
 .input-field{
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     /* margin-left: 10%; */
     display: flex;
     justify-content: space-between;
 }
 #username{
-    width: 45.5%;
-    height: 50px;
-    border: none;
+    width: 276px;
+    height: 43px;
+    border: 1px solid rgb(195, 189, 189);
+    border-radius: 5px;
+    padding: 20px;
+}
+#email{
+    width: 276px;
+    height: 43px;
+    border: 1px solid rgb(195, 189, 189);
     border-radius: 5px;
     padding: 10px;
 }
-#email{
-    width: 45.5%;
-    height: 50px;
-    border: none;
+.sub-field{
+    /* background-color: green; */
+    width: 100%;
+    /* padding: 10px; */
+    padding-top: 20px;
+}
+#subject{
+    width: 100%;
+    height: 43px;
+    border: 1px solid rgb(195, 189, 189);
     border-radius: 5px;
     padding: 10px;
+}
+.message-box{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#message{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(195, 189, 189);
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit-div{
+    width: 100%;
+}
+#submit_btn{
+    width: 30%;
+    height: 50px;
+    border: 1px solid hsl(135, 33%, 36%);
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+    font-size: larger;
+    color: hsl(135, 33%, 36%);
+    transition: 0.5s;
+    font-weight: bold;
+}
+#submit_btn:hover{
+    color: white;
+    background-color: hsl(135, 33%, 36%);
 }
 
 /* navbarend */
@@ -341,6 +388,205 @@ footer{
     #hamburger{
         display: inline-block;
     }
+    .house-job-section{
+        width: 100%;
+        height: 150px;
+        background-color: #f7fcfc;
+        align-items: center;
+        text-align: center;
+    }
+    .house-job-container{
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .house-job-title{
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        padding-left: 25%;
+    /* text-decoration: underline; */
+    }
+    .house-job-title::after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 40%;
+        height: 4px;
+        background-color: hsl(135, 33%, 36%);    
+        left: 50%;
+    }
+    .map-section{
+        width: 100%;
+        height: 50vh;
+        padding-top: 60px;
+        background-color: #f7fcfc;
+    }
+    .map-container{
+        width: 80%;
+        margin-left: 3%;
+    }
+    .map{
+        width: 118%;
+        height: 200px;
+    }
+    .contact-form-section{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f7fcfc;
+    }
+    .contact-form-container-1{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        padding-top: 20px;
+        padding-left: 3%;
+    }
+    .address{
+        font-size: 16px;
+        color: gray;
+        width: 300px;
+        height: 225px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .flex-env-call{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 3%;
+    }
+    .email{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 44%;
+        height: 150px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .call{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 44%;
+        height: 150px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .fa-location-dot{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-envelope{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-phone{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .contact-form-container-2{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        /* padding: 15px; */
+        padding-top: 60px;
+    }
+    .input-field{
+        /* background-color: red; */
+        width: 100%;
+        height: 100px;
+        /* padding: 20px; */
+        /* margin-left: 10%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #username{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 20px;
+    }
+    #email{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .sub-field{
+        /* background-color: green; */
+        width: 100%;
+        /* padding: 10px; */
+        padding-top: 20px;
+    }
+    #subject{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .message-box{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    #message{
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .submit-div{
+        width: 100%;
+        padding-top: 20px;
+    }
+    #submit_btn{
+        width: 50%;
+        height: 50px;
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 5px;
+        padding: 10px;
+        background: transparent;
+        font-size: larger;
+        color: hsl(135, 33%, 36%);
+        transition: 0.5s;
+        font-weight: bold;
+    }
 
     footer{
         padding-top: 10%;
@@ -379,7 +625,6 @@ footer{
         flex-direction: column;
         gap: 10px;   
     }
-    
     }
 
     /* Mobile (portrait, 360px to 480px) */
@@ -421,6 +666,205 @@ footer{
     }
     #hamburger{
         display: inline-block;
+    }
+    .house-job-section{
+        width: 100%;
+        height: 150px;
+        background-color: #f7fcfc;
+        align-items: center;
+        text-align: center;
+    }
+    .house-job-container{
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .house-job-title{
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        padding-left: 25%;
+    /* text-decoration: underline; */
+    }
+    .house-job-title::after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 40%;
+        height: 4px;
+        background-color: hsl(135, 33%, 36%);    
+        left: 50%;
+    }
+    .map-section{
+        width: 100%;
+        height: 50vh;
+        padding-top: 60px;
+        background-color: #f7fcfc;
+    }
+    .map-container{
+        width: 80%;
+        margin-left: 3%;
+    }
+    .map{
+        width: 118%;
+        height: 200px;
+    }
+    .contact-form-section{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f7fcfc;
+    }
+    .contact-form-container-1{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        padding-top: 20px;
+        padding-left: 3%;
+    }
+    .address{
+        font-size: 16px;
+        color: gray;
+        width: 350px;
+        height: 205px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .flex-env-call{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 3%;
+    }
+    .email{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 44%;
+        height: 120px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .call{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 44%;
+        height: 120px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .fa-location-dot{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-envelope{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-phone{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .contact-form-container-2{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        /* padding: 15px; */
+        padding-top: 60px;
+    }
+    .input-field{
+        /* background-color: red; */
+        width: 100%;
+        height: 100px;
+        /* padding: 20px; */
+        /* margin-left: 10%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #username{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 20px;
+    }
+    #email{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .sub-field{
+        /* background-color: green; */
+        width: 100%;
+        /* padding: 10px; */
+        padding-top: 20px;
+    }
+    #subject{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .message-box{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    #message{
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .submit-div{
+        width: 100%;
+        padding-top: 20px;
+    }
+    #submit_btn{
+        width: 50%;
+        height: 50px;
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 5px;
+        padding: 10px;
+        background: transparent;
+        font-size: larger;
+        color: hsl(135, 33%, 36%);
+        transition: 0.5s;
+        font-weight: bold;
     }
     footer{
         padding-top: 10%;
@@ -501,6 +945,205 @@ footer{
     #hamburger{
         display: inline-block;
     }
+    .house-job-section{
+        width: 100%;
+        height: 150px;
+        background-color: #f7fcfc;
+        align-items: center;
+        text-align: center;
+    }
+    .house-job-container{
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .house-job-title{
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        padding-left: 25%;
+    /* text-decoration: underline; */
+    }
+    .house-job-title::after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 40%;
+        height: 4px;
+        background-color: hsl(135, 33%, 36%);    
+        left: 50%;
+    }
+    .map-section{
+        width: 100%;
+        height: 50vh;
+        padding-top: 60px;
+        background-color: #f7fcfc;
+    }
+    .map-container{
+        width: 80%;
+        margin-left: 3%;
+    }
+    .map{
+        width: 118%;
+        height: 200px;
+    }
+    .contact-form-section{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f7fcfc;
+    }
+    .contact-form-container-1{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        padding-top: 60px;
+        padding-left: 3%;
+    }
+    .address{
+        font-size: 16px;
+        color: gray;
+        width: 480px;
+        height: 205px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .flex-env-call{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 3%;
+    }
+    .email{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 44%;
+        height: 120px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .call{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 44%;
+        height: 120px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .fa-location-dot{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-envelope{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-phone{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .contact-form-container-2{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        /* padding: 15px; */
+        padding-top: 60px;
+    }
+    .input-field{
+        /* background-color: red; */
+        width: 100%;
+        height: 100px;
+        /* padding: 20px; */
+        /* margin-left: 10%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #username{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 20px;
+    }
+    #email{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .sub-field{
+        /* background-color: green; */
+        width: 100%;
+        /* padding: 10px; */
+        padding-top: 20px;
+    }
+    #subject{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .message-box{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    #message{
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .submit-div{
+        width: 100%;
+        padding-top: 20px;
+    }
+    #submit_btn{
+        width: 50%;
+        height: 50px;
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 5px;
+        padding: 10px;
+        background: transparent;
+        font-size: larger;
+        color: hsl(135, 33%, 36%);
+        transition: 0.5s;
+        font-weight: bold;
+    }
     footer{
         padding-top: 10%;
         flex-direction: column;
@@ -580,6 +1223,206 @@ footer{
     #hamburger{
         display: inline-block;
     }
+    .house-job-section{
+        width: 100%;
+        height: 150px;
+        background-color: #f7fcfc;
+        align-items: center;
+        text-align: center;
+    }
+    .house-job-container{
+        background-color: #f7fcfc;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .house-job-title{
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        padding-left: 40%;
+    /* text-decoration: underline; */
+    }
+    .house-job-title::after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 30%;
+        height: 4px;
+        background-color: hsl(135, 33%, 36%);    
+        left: 65%;
+    }
+    .map-section{
+        width: 100%;
+        height: 50vh;
+        padding-top: 60px;
+        background-color: #f7fcfc;
+    }
+    .map-container{
+        width: 80%;
+        margin-left: 3%;
+    }
+    .map{
+        width: 118%;
+        height: 200px;
+    }
+    .contact-form-section{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f7fcfc;
+    }
+    .contact-form-container-1{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        padding-top: 60px;
+        padding-left: 3%;
+    }
+    .address{
+        font-size: 18px;
+        color: gray;
+        width: 97%;
+        height: 205px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .flex-env-call{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 3%;
+    }
+    .email{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 48%;
+        height: 120px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .call{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        width: 48%;
+        height: 120px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .fa-location-dot{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-envelope{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .fa-phone{
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .contact-form-container-2{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        /* padding: 15px; */
+        padding-top: 60px;
+    }
+    .input-field{
+        /* background-color: red; */
+        width: 100%;
+        height: 100px;
+        /* padding: 20px; */
+        /* margin-left: 10%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #username{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 20px;
+    }
+    #email{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .sub-field{
+        /* background-color: green; */
+        width: 100%;
+        /* padding: 10px; */
+        padding-top: 20px;
+    }
+    #subject{
+        width: 100%;
+        height: 43px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .message-box{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    #message{
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(195, 189, 189);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .submit-div{
+        width: 100%;
+        padding-top: 20px;
+    }
+    #submit_btn{
+        width: 50%;
+        height: 50px;
+        border: 1px solid hsl(135, 33%, 36%);
+        border-radius: 5px;
+        padding: 10px;
+        background: transparent;
+        font-size: larger;
+        color: hsl(135, 33%, 36%);
+        transition: 0.5s;
+        font-weight: bold;
+    }
+
     footer{
         padding-top: 10%;
         flex-direction: column;
@@ -689,7 +1532,200 @@ footer{
    
    #hamburger{
        display: none;
-   }
+    }
+    .house-job-section{
+    width: 100%;
+    height: 200px;
+    background-color: #f7fcfc;
+    align-items: center;
+    text-align: center;
+}
+.house-job-container{
+    background-color: #f7fcfc;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.house-job-title{
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    padding-left: 45%;
+/* text-decoration: underline; */
+}
+.house-job-title::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 20%;
+    height: 4px;
+    background-color: hsl(135, 33%, 36%);    
+    left: 77%;
+}
+.map-section{
+    width: 100%;
+    height: 70vh;
+    padding-top: 60px;
+    background-color: #f7fcfc;
+}
+.map-container{
+    width: 80%;
+    margin-left: 3%;
+}
+.map{
+    width: 118%;
+    height: 300px;
+}
+.contact-form-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7fcfc;
+}
+.contact-form-container-1{
+    width: 44.5%;
+    height: 400px;
+    /* background-color: aqua; */
+}
+.address{
+    font-size: 18px;
+    color: gray;
+    width: 600px;
+    height: 225px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+}
+.flex-env-call{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+.email{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    width: 48%;
+    height: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+}
+.call{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    width: 48%;
+    height: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+}
+.fa-location-dot{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 15px;
+}
+.fa-envelope{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 15px;
+}
+.fa-phone{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 15px;
+}
+.contact-form-container-2{
+    width: 44.5%;
+    height: 400px;
+    /* background-color: aqua; */
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+}
+.input-field{
+    /* background-color: red; */
+    width: 100%;
+    /* margin-left: 10%; */
+    display: flex;
+    justify-content: space-between;
+}
+#username{
+    width: 276px;
+    height: 43px;
+    border: 1px solid rgb(195, 189, 189);
+    border-radius: 5px;
+    padding: 20px;
+}
+#email{
+    width: 276px;
+    height: 43px;
+    border: 1px solid rgb(195, 189, 189);
+    border-radius: 5px;
+    padding: 10px;
+}
+.sub-field{
+    /* background-color: green; */
+    width: 100%;
+    /* padding: 10px; */
+    padding-top: 20px;
+}
+#subject{
+    width: 100%;
+    height: 43px;
+    border: 1px solid rgb(195, 189, 189);
+    border-radius: 5px;
+    padding: 10px;
+}
+.message-box{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#message{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(195, 189, 189);
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit-div{
+    width: 100%;
+}
+#submit_btn{
+    width: 30%;
+    height: 50px;
+    border: 1px solid hsl(135, 33%, 36%);
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+    font-size: larger;
+    color: hsl(135, 33%, 36%);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+
+
    /* FOOTER SECTION START */
 
 footer{
