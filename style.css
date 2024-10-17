@@ -25,7 +25,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-
+    border-bottom: 3px solid hsl(135, 33%, 36%);
 }
 .ancors{
     width: 70%;
